@@ -1,3 +1,4 @@
 PyGithub
 python-gitlab
 emoji
+algoliasearch>=2.0,<3.0

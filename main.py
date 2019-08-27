@@ -12,6 +12,7 @@ from contextlib import suppress
 
 import emoji
 import gitlab
+from algoliasearch.search_client import SearchClient
 from github import Github
 from github.GithubException import UnknownObjectException
 
@@ -135,3 +136,10 @@ json.dump(
     indent=4,
     default=lambda x: f"{x.isoformat()}Z" if isinstance(x, datetime.datetime) else None,
 )
+
+if "ALGOLIA_APPLICATION_ID" in os.environ:
+    client = SearchClient.create(
+        os.environ["ALGOLIA_APPLICATION_ID"], os.environ["ALGOLIA_ADMIN_KEY"]
+    )
+    index = client.init_index("software_showcase")
+    index.save_objects(repos)
