@@ -10,6 +10,7 @@ import sys
 import urllib.request
 from contextlib import suppress
 
+import emoji
 import gitlab
 from github import Github
 from github.GithubException import UnknownObjectException
@@ -42,8 +43,8 @@ else:
         REPOS = {
             row["url"]: {
                 **row,
-                "funders": list(filter(None, row["funders"].split(","))),
-                "organisations": list(filter(None, row["organisations"].split(","))),
+                "funders": list(filter(None, row["funders"].split(";"))),
+                "organisations": list(filter(None, row["organisations"].split(";"))),
             }
             for row in csv.DictReader(csvfile)
         }
@@ -68,12 +69,14 @@ for u, v in REPOS.items():
             # is_fork=r.fork,
             # direct_collaborators_count=r.get_collaborators("direct").totalCount,
             stars_count=r.stargazers_count,
-            license=get_license(r),
+            license=v["licence"] or get_license(r),
             # outside_collaborators_count=r.get_collaborators("outside").totalCount,
             commits_count=r.get_commits().totalCount,
             contributors_count=r.get_contributors().totalCount,
             repo_url=r.html_url,
-            description=r.description,
+            description=emoji.emojize(r.description, use_aliases=True)
+            if r.description
+            else None,
             homepage_url=r.homepage,
             forks_count=r.forks_count,
             # watchers_count=r.subscribers_count,

@@ -21,7 +21,7 @@ https://github.com/qpv-research-group/solcore5,,,,,,
 https://github.com/su2code/SU2,,,,,,
 https://github.com/tensorlayer/tensorlayer,,10.1145/3123266.3129391,,,,
 https://github.com/thetisproject/thetis,,,,,,
-https://github.com/vimc/orderly,,,,,,
+https://github.com/vimc/orderly,100000865;100001125,,,,,
 https://github.com/vincentlab/PyFR,501100000266,10.1016/j.cpc.2014.07.011,,,,
 https://github.com/WMD-group/SMACT,,10.5281/zenodo.268896,,,,
 https://github.com/xcompact3d/Incompact3d,,10.1002/fld.2480,,,,
@@ -30,5 +30,11 @@ https://github.com/lsds/sgx-lkl,,,https://lsds.doc.ic.ac.uk/projects/sgx-lkl,,,c
 https://github.com/lsds/Faasm,,,,,,s.shillaker17@imperial.ac.uk
 https://github.com/ImperialCollegeLondon/django-drf-filepond,501100000266,,,,,jeremy.cohen@imperial.ac.uk
 https://github.com/ImperialCollegeLondon/sap-voicebox,,,,,,mike.brookes@imperial.ac.uk
+https://github.com/mrc-ide/cinterpolate,501100000265,,,MIT,,r.fitzjohn@imperial.ac.uk
+https://github.com/ropensci/cyphr,,,,MIT,,r.fitzjohn@imperial.ac.uk
+https://github.com/mrc-ide/dde,501100000265,,,MIT,,r.fitzjohn@imperial.ac.uk
+https://github.com/mrc-ide/odin,501100000265,,,MIT,,r.fitzjohn@imperial.ac.uk
+https://github.com/vimc/vaultr,100000865;100001125,,,MIT,,r.fitzjohn@imperial.ac.uk
+https://github.com/ropensci/jsonvalidate,,,,MIT,,r.fitzjohn@imperial.ac.uk
 https://gitlab.com/l_sim/bigdft-suite,,10.1016/j.crme.2010.12.003,http://bigdft.org/Wiki/index.php?title=BigDFT_website,GPL-2.0,grid.457348.9,laura.radcliff08@imperial.ac.uk
 https://gitlab.nektar.info/nektar/nektar,,10.1016/j.cpc.2015.02.008,https://www.nektar.info/,MIT,,c.cantwell@imperial.ac.uk
