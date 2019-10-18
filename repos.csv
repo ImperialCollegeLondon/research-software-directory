@@ -1,5 +1,5 @@
 url,funders,doi,homepage_url,licence,organisations,contact
-https://github.com/barnesgroupICL/Driftfusion,,10.1039/C8EE02362J,,,,p.calado13@imperial.ac.uk
+https://github.com/barnesgroupICL/Driftfusion,,10.1039/C8EE02362J,,,,Philip Calado <p.calado13@imperial.ac.uk>
 https://github.com/Crompulence/cpl-library,,10.5281/zenodo.56208,,,,
 https://github.com/deepmedic/deepmedic,,10.1016/j.media.2016.10.004,,,,
 https://github.com/firedrakeproject/firedrake,,10.5194/gmd-9-3803-2016,,,,
@@ -11,9 +11,9 @@ https://github.com/ImperialCollegeLondon/repository,,,,,,
 https://github.com/ImperialCollegeLondon/UVLM,,,,,,
 https://github.com/JelfsMaterialsGroup/stk,,,,,,
 https://github.com/klee/klee,,,,,,
-https://github.com/lucydot/effmass,,0.21105/joss.00797,,,,l.whalley16@imperial.ac.uk
+https://github.com/lucydot/effmass,,0.21105/joss.00797,,,,Lucy Whalley <l.whalley16@imperial.ac.uk>
 https://github.com/mc-imperial/gpuverify,,10.1145/2398857.2384625,,,,
-https://github.com/mwoodbri/MRIdb,501100000265,,,,,m.woodbridge@imperial.ac.uk
+https://github.com/mwoodbri/MRIdb,501100000265,,,,,Mark Woodbridge <m.woodbridge@imperial.ac.uk>
 https://github.com/opesci/devito,501100000266,10.5194/gmd-12-1165-2019,,,,
 https://github.com/patscott/gambit_1.3,,10.1140/epjc/s10052-017-5321-8,,,,
 https://github.com/ProjectPyRhO/PyRhO,,,,,,
@@ -21,20 +21,20 @@ https://github.com/qpv-research-group/solcore5,,,,,,
 https://github.com/su2code/SU2,,,,,,
 https://github.com/tensorlayer/tensorlayer,,10.1145/3123266.3129391,,,,
 https://github.com/thetisproject/thetis,,,,,,
-https://github.com/vimc/orderly,100000865;100001125,,,MIT,,r.fitzjohn@imperial.ac.uk
+https://github.com/vimc/orderly,100000865;100001125,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
 https://github.com/vincentlab/PyFR,501100000266,10.1016/j.cpc.2014.07.011,,,,
 https://github.com/WMD-group/SMACT,,10.5281/zenodo.268896,,,,
 https://github.com/xcompact3d/Incompact3d,,10.1002/fld.2480,,,,
-https://github.com/lsds/Crossbow,,https://doi.org/10.14778/3342263.3342276,https://lsds.doc.ic.ac.uk/projects/crossbow,,,a.koliousis@imperial.ac.uk
-https://github.com/lsds/sgx-lkl,,,https://lsds.doc.ic.ac.uk/projects/sgx-lkl,,,christian.priebe13@imperial.ac.uk
-https://github.com/lsds/Faasm,,,,,,s.shillaker17@imperial.ac.uk
-https://github.com/ImperialCollegeLondon/django-drf-filepond,501100000266,,,,,jeremy.cohen@imperial.ac.uk
-https://github.com/ImperialCollegeLondon/sap-voicebox,,,,,,mike.brookes@imperial.ac.uk
-https://github.com/mrc-ide/cinterpolate,501100000265,,,MIT,,r.fitzjohn@imperial.ac.uk
-https://github.com/ropensci/cyphr,,,,MIT,,r.fitzjohn@imperial.ac.uk
-https://github.com/mrc-ide/dde,501100000265,,,MIT,,r.fitzjohn@imperial.ac.uk
-https://github.com/mrc-ide/odin,501100000265,,,MIT,,r.fitzjohn@imperial.ac.uk
-https://github.com/vimc/vaultr,100000865;100001125,,,MIT,,r.fitzjohn@imperial.ac.uk
-https://github.com/ropensci/jsonvalidate,,,,MIT,,r.fitzjohn@imperial.ac.uk
-https://gitlab.com/l_sim/bigdft-suite,,10.1016/j.crme.2010.12.003,http://bigdft.org/Wiki/index.php?title=BigDFT_website,GPL-2.0,grid.457348.9,laura.radcliff08@imperial.ac.uk
-https://gitlab.nektar.info/nektar/nektar,,10.1016/j.cpc.2015.02.008,https://www.nektar.info/,MIT,,c.cantwell@imperial.ac.uk
+https://github.com/lsds/Crossbow,,https://doi.org/10.14778/3342263.3342276,https://lsds.doc.ic.ac.uk/projects/crossbow,,,Alexandros Koliousis <a.koliousis@imperial.ac.uk>
+https://github.com/lsds/sgx-lkl,,,https://lsds.doc.ic.ac.uk/projects/sgx-lkl,,,Christian Priebe <christian.priebe13@imperial.ac.uk>
+https://github.com/lsds/Faasm,,,,,,Simon Shillaker <s.shillaker17@imperial.ac.uk>
+https://github.com/ImperialCollegeLondon/django-drf-filepond,501100000266,,,,,Jeremy Cohen <jeremy.cohen@imperial.ac.uk>
+https://github.com/ImperialCollegeLondon/sap-voicebox,,,,,,Mike Brookes <mike.brookes@imperial.ac.uk>
+https://github.com/mrc-ide/cinterpolate,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
+https://github.com/ropensci/cyphr,,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
+https://github.com/mrc-ide/dde,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
+https://github.com/mrc-ide/odin,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
+https://github.com/vimc/vaultr,100000865;100001125,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
+https://github.com/ropensci/jsonvalidate,,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
+https://gitlab.com/l_sim/bigdft-suite,,10.1016/j.crme.2010.12.003,http://bigdft.org/Wiki/index.php?title=BigDFT_website,GPL-2.0,grid.457348.9,Laura Radcliff <laura.radcliff08@imperial.ac.uk>
+https://gitlab.nektar.info/nektar/nektar,,10.1016/j.cpc.2015.02.008,https://www.nektar.info/,MIT,,Chris Cantwell <c.cantwell@imperial.ac.uk>
