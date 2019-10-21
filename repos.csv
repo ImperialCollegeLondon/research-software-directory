@@ -35,7 +35,12 @@ https://github.com/thetisproject/thetis,,,,,,
 https://github.com/vimc/orderly,100000865;100001125,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
 https://github.com/vimc/vaultr,100000865;100001125,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
 https://github.com/vincentlab/PyFR,501100000266,10.1016/j.cpc.2014.07.011,,,,
+https://github.com/WMD-group/CarrierCapture.jl,,10.5281/zenodo.2621017,,,,
+https://github.com/WMD-group/Eris,,10.5281/zenodo.1471439,,,,
+https://github.com/WMD-group/hybrid-perovskites,,10.5281/zenodo.2641358,,,,
+https://github.com/WMD-group/MacroDensity,,10.1021/ja4110073,,,,
 https://github.com/WMD-group/SMACT,,10.5281/zenodo.268896,,,,
+https://github.com/WMD-group/StarryNight,,10.5281/zenodo.10543,,,,
 https://github.com/xcompact3d/Incompact3d,,10.1002/fld.2480,,,,
 https://gitlab.com/l_sim/bigdft-suite,,10.1016/j.crme.2010.12.003,http://bigdft.org/Wiki/index.php?title=BigDFT_website,GPL-2.0,grid.457348.9,Laura Ratcliff <laura.ratcliff08@imperial.ac.uk>
 https://gitlab.nektar.info/nektar/nektar,,10.1016/j.cpc.2015.02.008,https://www.nektar.info/,MIT,,Chris Cantwell <c.cantwell@imperial.ac.uk>
