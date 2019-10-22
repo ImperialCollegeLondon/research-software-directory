@@ -130,16 +130,18 @@ for u, v in REPOS.items():
     )
     repos.append(repo)
 
-json.dump(
-    repos,
-    sys.stdout,
-    indent=4,
-    default=lambda x: f"{x.isoformat()}Z" if isinstance(x, datetime.datetime) else None,
-)
-
 if "ALGOLIA_APPLICATION_ID" in os.environ:
     client = SearchClient.create(
         os.environ["ALGOLIA_APPLICATION_ID"], os.environ["ALGOLIA_ADMIN_KEY"]
     )
     index = client.init_index("software_showcase")
     index.save_objects(repos)
+else:
+    json.dump(
+        repos,
+        sys.stdout,
+        indent=4,
+        default=lambda x: f"{x.isoformat()}Z"
+        if isinstance(x, datetime.datetime)
+        else None,
+    )
