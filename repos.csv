@@ -1,7 +1,7 @@
 url,funders,doi,homepage_url,licence,organisations,contact
 https://github.com/barnesgroupICL/Driftfusion,,10.1039/C8EE02362J,,,,Philip Calado <p.calado13@imperial.ac.uk>
-https://github.com/cog-imperial/GPdoemd,,,,,,
-https://github.com/cog-imperial/suspect,,,,,,
+https://github.com/cog-imperial/GPdoemd,,,,,,simon.olofsson15@imperial.ac.uk
+https://github.com/cog-imperial/suspect,501100000266,,,,,francesco.ceccon14@imperial.ac.uk
 https://github.com/Crompulence/cpl-library,,10.5281/zenodo.56208,,,,
 https://github.com/deepmedic/deepmedic,,10.1016/j.media.2016.10.004,,,,
 https://github.com/DLTK/DLTK,,,,,,Nick Pawlowski <n.pawlowski16@imperial.ac.uk>
@@ -13,7 +13,6 @@ https://github.com/gilestrolab/pySolo,,10.1093/bioinformatics/btp237,,,,
 https://github.com/ImperialCollegeLondon/django-drf-filepond,501100000266,,,,,Jeremy Cohen <jeremy.cohen@imperial.ac.uk>
 https://github.com/ImperialCollegeLondon/EpiCollectplus,,10.1371/journal.pone.0006968,,,,
 https://github.com/ImperialCollegeLondon/ICLOCS,,,,,,
-https://github.com/ImperialCollegeLondon/repository,,,,,,
 https://github.com/ImperialCollegeLondon/sap-voicebox,,,,,,Mike Brookes <mike.brookes@imperial.ac.uk>
 https://github.com/ImperialCollegeLondon/UVLM,,,,,,
 https://github.com/JelfsMaterialsGroup/stk,,,,,,
