@@ -1,8 +1,9 @@
 url,funders,doi,homepage_url,licence,organisations,contact
 https://github.com/barnesgroupICL/Driftfusion,,10.1039/C8EE02362J,,,,Philip Calado <p.calado13@imperial.ac.uk>
-https://github.com/cog-imperial/GPdoemd,,,,,,simon.olofsson15@imperial.ac.uk
-https://github.com/cog-imperial/suspect,501100000266,,,,,francesco.ceccon14@imperial.ac.uk
+https://github.com/cog-imperial/GPdoemd,,,,,,Simon Olofsson <simon.olofsson15@imperial.ac.uk>
+https://github.com/cog-imperial/suspect,501100000266,,,,,Francesco Ceccon <francesco.ceccon14@imperial.ac.uk>
 https://github.com/Crompulence/cpl-library,,10.5281/zenodo.56208,,,,
+https://github.com/csmsoftware/IMPaCTS,,10.5281/zenodo.3077413,,,,Gordon Haggart <g.haggart@imperial.ac.uk>
 https://github.com/deepmedic/deepmedic,,10.1016/j.media.2016.10.004,,,,
 https://github.com/DLTK/DLTK,,,,,,Nick Pawlowski <n.pawlowski16@imperial.ac.uk>
 https://github.com/fabiopardo/qmap,,,,,,Fabio Pardo <f.pardo@imperial.ac.uk>
@@ -23,6 +24,7 @@ https://github.com/lsds/Faasm,,,,,,Simon Shillaker <s.shillaker17@imperial.ac.uk
 https://github.com/lsds/sgx-lkl,,,https://lsds.doc.ic.ac.uk/projects/sgx-lkl,,,Christian Priebe <christian.priebe13@imperial.ac.uk>
 https://github.com/lucydot/effmass,,0.21105/joss.00797,,,,Lucy Whalley <l.whalley16@imperial.ac.uk>
 https://github.com/mc-imperial/gpuverify,,10.1145/2398857.2384625,,,,
+https://github.com/mc-imperial/jfs,,10.1145/3338906.3338921,,,,
 https://github.com/mrc-ide/cinterpolate,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
 https://github.com/mrc-ide/dde,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
 https://github.com/mrc-ide/odin,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>
