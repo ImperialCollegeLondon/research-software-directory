@@ -64,7 +64,7 @@ for u, v in REPOS.items():
             owner_uri=f"github.com:{r.owner.login}",  # TODO
             # organisation=r.organization.name if r.organization else None,
             created_at=r.created_at,
-            updated_at=r.updated_at,
+            updated_at=r.pushed_at,
             language=r.language,
             topics=r.get_topics(),
             # is_fork=r.fork,
