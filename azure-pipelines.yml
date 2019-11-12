@@ -1,13 +1,10 @@
-trigger:
-  - master
-
 pool:
   vmImage: "ubuntu-latest"
 
 steps:
   - task: UsePythonVersion@0
     inputs:
-      versionSpec: 3.7
+      versionSpec: 3.8
 
   - script: |
       python -m pip install --upgrade pip
