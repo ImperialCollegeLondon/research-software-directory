@@ -52,7 +52,7 @@ else:
 
 repos = []
 
-g = Github(os.environ["GITHUB_TOKEN"])
+g = Github(os.environ["PUBLIC_GITHUB_TOKEN"])
 
 for u, v in REPOS.items():
     m = re.match("(.*)/(.+/.+)", u)
