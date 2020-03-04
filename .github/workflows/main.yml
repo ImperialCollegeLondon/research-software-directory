@@ -11,7 +11,7 @@ jobs:
           python-version: 3.8
       - run: |
           python -m pip install -U pip
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
           python main.py
         env:
           PUBLIC_GITHUB_TOKEN: ${{ secrets.PUBLIC_GITHUB_TOKEN }}
