@@ -14,7 +14,8 @@ class Validator(Vlad):
         "homepage_url": [RegexValidator(r"https?://.+", full=True, empty_ok=True)],
         "licence": [
             SetValidator(
-                ["MIT", "GPL-2.0", "Artistic-2.0", "BSD-3-Clause"], empty_ok=True
+                ["MIT", "GPL-2.0", "GPL-3.0", "Artistic-2.0", "BSD-3-Clause"],
+                empty_ok=True,
             )
         ],
         "organisations": [SetValidator(["grid.457348.9"], empty_ok=True)],
