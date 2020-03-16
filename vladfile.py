@@ -14,7 +14,7 @@ class Validator(Vlad):
         "homepage_url": [RegexValidator(r"https?://.+", full=True, empty_ok=True)],
         "licence": [
             SetValidator(
-                ["MIT", "GPL-2.0", "GPL-3.0", "Artistic-2.0", "BSD-3-Clause"],
+                ["MIT", "GPL-2.0", "GPL-3.0", "Artistic-2.0", "BSD-3-Clause", "NCSA"],
                 empty_ok=True,
             )
         ],
