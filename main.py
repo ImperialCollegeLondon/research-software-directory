@@ -9,6 +9,7 @@ import re
 import sys
 import urllib.request
 from contextlib import suppress
+from hashlib import md5
 
 import emoji
 import gitlab
@@ -61,7 +62,7 @@ for u, v in REPOS.items():
         repo = dict(
             name=r.name,
             owner_name=r.owner.name,
-            owner_uri=f"github.com:{r.owner.login}",  # TODO
+            owner_urn=f"github.com:{r.owner.login}",  # TODO
             # organisation=r.organization.name if r.organization else None,
             created_at=r.created_at,
             updated_at=r.pushed_at,
@@ -86,7 +87,7 @@ for u, v in REPOS.items():
             releases_count=r.get_releases().totalCount,
             # readme=r.get_readme().decoded_content,
             doi=v["doi"] or get_doi(r.html_url),
-            objectID=f"github:{r.id}",
+            urn=f"github.com:{r.id}",
         )
     else:
         with gitlab.Gitlab(m.group(1)) as gl:
@@ -96,7 +97,7 @@ for u, v in REPOS.items():
             repo = dict(
                 name=p.attributes["name"],
                 owner_name=p.namespace["name"],
-                owner_uri=f"gitlab.nektar.info:{p.namespace['path']}",
+                owner_urn=f"gitlab.nektar.info:{p.namespace['path']}",
                 created_at=datetime.datetime.fromisoformat(p.created_at[:-1]),
                 updated_at=datetime.datetime.fromisoformat(p.last_activity_at[:-1]),
                 language=max(p.languages().items(), key=operator.itemgetter(1))[0],
@@ -115,9 +116,10 @@ for u, v in REPOS.items():
                 # downloads_count=0,  # TODO NA
                 releases_count=p.releases.list(as_list=False).total,
                 doi=v["doi"] or get_doi(p.web_url),
-                objectID=f"gitlab.nektar.info:{p.id}",
+                urn=f"gitlab.nektar.info:{p.id}",
             )
     repo.update(
+        objectID=md5(repo["urn"].encode()).hexdigest()[:8],
         inactive=datetime.datetime.now() - repo["updated_at"]
         > datetime.timedelta(days=365),
         # Imperial College London: https://www.grid.ac/institutes/grid.7445.2
