@@ -7,7 +7,7 @@ class Validator(Vlad):
     source = LocalFile("repos.csv")
     validators = {
         "contact": [
-            RegexValidator(r"[\w\-' ]+ <[\w\-.]+@[\w\-.]+>", full=True, empty_ok=True)
+            RegexValidator(r"\w[\w\-' ]+ <[\w\-.]+@[\w\-.]+>", full=True, empty_ok=True)
         ],
         "doi": [RegexValidator(r"[\w\-./]+", full=True, empty_ok=True)],
         "funders": [RegexValidator(r"(\d+;?)+", full=True, empty_ok=True)],
