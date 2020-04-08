@@ -1,12 +1,12 @@
 algoliasearch==2.2.0
-certifi==2019.11.28
+certifi==2020.4.5.1
 chardet==3.0.4
-Deprecated==1.2.7
+Deprecated==1.2.8
 emoji==0.5.4
 idna==2.9
 PyGithub==1.47
 PyJWT==1.7.1
-python-gitlab==2.1.2
+python-gitlab==2.2.0
 requests==2.23.0
 urllib3==1.25.8
 wrapt==1.12.1
