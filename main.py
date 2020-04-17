@@ -79,7 +79,7 @@ for u, v in REPOS.items():
             description=emoji.emojize(r.description, use_aliases=True)
             if r.description
             else None,
-            homepage_url=r.homepage,
+            homepage_url=v["homepage_url"] or r.homepage,
             forks_count=r.forks_count,
             # watchers_count=r.subscribers_count,
             issues_count=r.open_issues_count,
