@@ -14,11 +14,12 @@ https://github.com/firedrakeproject/firedrake,,10.5194/gmd-9-3803-2016,,,,,
 https://github.com/firedrakeproject/gusto,,,,,,,
 https://github.com/FluidityProject/fluidity,,10.1029/2011GC003551,,,,,
 https://github.com/gilestrolab/pySolo,,10.1093/bioinformatics/btp237,,,,,
+https://github.com/Imperial-visualizations/Physics-Visualizations,,,,,,Caroline Clewley <c.clewley@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/adam,,10.1093/bioinformatics/bts644,,,,Mark Woodbridge <m.woodbridge@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/covid19model,,10044/1/77731,https://mrc-ide.github.io/covid19estimates/,,,Swapnil Mishra <s.mishra@imperial.ac.uk>,2020-04
 https://github.com/ImperialCollegeLondon/django-drf-filepond,501100000266,,,,,Jeremy Cohen <jeremy.cohen@imperial.ac.uk>,
-https://github.com/ImperialCollegeLondon/fractalgenetics,,10.5281/zenodo.3518717,,,,Declan O'Regan <declan.oregan@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/EpiCollectplus,,10.1371/journal.pone.0006968,,,,,
+https://github.com/ImperialCollegeLondon/fractalgenetics,,10.5281/zenodo.3518717,,,,Declan O'Regan <declan.oregan@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/hcga,,,https://imperialcollegelondon.github.io/hcga/,,,Alexis Arnaudon <alexis.arnaudon@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/ICLOCS,,,http://www.ee.ic.ac.uk/ICLOCS/,,,ICLOCS <iclocs@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/magda_tools,,,,,,Chris Cave-Ayland <c.cave-ayland@imperial.ac.uk>,
@@ -27,11 +28,9 @@ https://github.com/ImperialCollegeLondon/R2T2,,,,,,Diego Alonso Álvarez <d.alon
 https://github.com/ImperialCollegeLondon/rcs-pacemakers,,,,,,Mark Woodbridge <m.woodbridge@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/research-software-directory-data,,,,,,Mark Woodbridge <m.woodbridge@imperial.ac.uk>,2019-12
 https://github.com/ImperialCollegeLondon/safedata,,,https://imperialcollegelondon.github.io/safedata/,GPL-3.0,,David Orme <d.orme@imperial.ac.uk>,
-https://github.com/mrc-ide/covid19-forecasts-orderly,,,https://mrc-ide.github.io/covid19-short-term-forecasts/,,,Sangeeta Bhatia <s.bhatia@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/sap-voicebox,,,,,,Mike Brookes <mike.brookes@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/UVLM,,,,,,,
 https://github.com/ImperialCollegeLondon/WInc3D,,10.1016/j.renene.2018.11.084,,,,Georgios Deskos <g.deskos14@imperial.ac.uk>,
-https://github.com/Imperial-visualizations/Physics-Visualizations,,,,,,Caroline Clewley <c.clewley@imperial.ac.uk>,
 https://github.com/JelfsMaterialsGroup/stk,,,,,,,
 https://github.com/Kaixhin/Atari,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
 https://github.com/Kaixhin/Autoencoders,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
@@ -54,6 +53,7 @@ https://github.com/mc-imperial/multicore-test-harness,,,,,,Dan Iorga <d.iorga17@
 https://github.com/MorgansLab/OSCILOS-Long,,,http://www.oscilos.com/,,,Aimee Morgans <a.morgans@imperial.ac.uk>,2020-03
 https://github.com/mp3guy/ElasticFusion,,10.1177/0278364916669237,,,,Andrew Davison <a.davison@imperial.ac.uk>,
 https://github.com/mrc-ide/cinterpolate,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
+https://github.com/mrc-ide/covid19-forecasts-orderly,,,https://mrc-ide.github.io/covid19-short-term-forecasts/,,,Sangeeta Bhatia <s.bhatia@imperial.ac.uk>,
 https://github.com/mrc-ide/dde,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
 https://github.com/mrc-ide/drjacoby,501100000265,,,,,Robert Verity <r.verity@imperial.ac.uk>,
 https://github.com/mrc-ide/individual,501100000265,,,MIT,,Giovanni Charles <giovanni.charles10@imperial.ac.uk>,
@@ -76,9 +76,9 @@ https://github.com/saphir746/BiobankRead-Bash,,10.5281/zenodo.802265,,,,Deborah 
 https://github.com/su2code/SU2,,,,,,,
 https://github.com/tensorlayer/tensorlayer,,10.1145/3123266.3129391,,,,Jingqing Zhang <jingqing.zhang15@imperial.ac.uk>,2019-10
 https://github.com/thetisproject/thetis,,,,,,,
-https://github.com/umbralcalc/helmpy,,,https://sites.google.com/view/helmpy,,,Robert Hardwick <r.hardwick@imperial.ac.uk>,
 https://github.com/UK-Digital-Heart-Project/4Dsegment,,10.5281/zenodo.2602751,,,,Declan O'Regan <declan.oregan@imperial.ac.uk>,
 https://github.com/UK-Digital-Heart-Project/4Dsurvival,,,,,,Declan O'Regan <declan.oregan@imperial.ac.uk>,
+https://github.com/umbralcalc/helmpy,,,https://sites.google.com/view/helmpy,,,Robert Hardwick <r.hardwick@imperial.ac.uk>,
 https://github.com/vimc/orderly,100000865;100001125,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,2019-02
 https://github.com/vimc/vaultr,100000865;100001125,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
 https://github.com/vincentlab/PyFR,501100000266,10.1016/j.cpc.2014.07.011,,,,,2019-08
