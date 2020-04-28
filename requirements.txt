@@ -4,7 +4,7 @@ chardet==3.0.4
 Deprecated==1.2.9
 emoji==0.5.4
 idna==2.9
-PyGithub==1.47
+PyGithub==1.50
 PyJWT==1.7.1
 python-gitlab==2.2.0
 requests==2.23.0
