@@ -38,7 +38,15 @@ def get_doi(repo_url):
 
 if len(sys.argv) > 1:
     REPOS = {
-        sys.argv[1]: {"funders": [], "doi": None, "organisations": [], "contact": None}
+        sys.argv[1]: {
+            "funders": [],
+            "doi": None,
+            "organisations": [],
+            "contact": None,
+            "licence": None,
+            "homepage_url": None,
+            "rsotm": None,
+        }
     }
 else:
     with open("repos.csv", encoding="utf-8") as csvfile:
