@@ -25,6 +25,8 @@ def get_license(repo):
 
 def get_doi(repo_url):
     # e.g. http://api.citeas.org/product/https://github.com/mwoodbri/MRIdb
+    if repo_url in ("https://github.com/mrc-ide/PlasmoMAPI",):
+        return
     with urllib.request.urlopen(f"http://api.citeas.org/product/{repo_url}") as f:
         encoding = f.info().get_content_charset("utf-8")
         data = json.loads(f.read().decode(encoding))
