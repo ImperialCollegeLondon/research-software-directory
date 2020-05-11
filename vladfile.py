@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from vladiate import Vlad
 from vladiate.inputs import LocalFile
 from vladiate.validators import RegexValidator, SetValidator, UniqueValidator
