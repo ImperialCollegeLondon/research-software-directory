@@ -24,6 +24,7 @@ class Validator(Vlad):
                     "BSD-3-Clause",
                     "NCSA",
                     "CECILL-2.1",
+                    "MPL-2.0",
                 ],
                 empty_ok=True,
             )
