@@ -29,7 +29,9 @@ class Validator(Vlad):
                 empty_ok=True,
             )
         ],
-        "organisations": [SetValidator(["grid.457348.9"], empty_ok=True)],
+        "organisations": [
+            SetValidator(["grid.457348.9", "grid.4991.5"], empty_ok=True)
+        ],
         "rsotm": [RegexValidator(r"\d{4}-\d{2}", full=True, empty_ok=True)],
         "url": [UniqueValidator()],
     }
