@@ -17,14 +17,15 @@ class Validator(Vlad):
         "licence": [
             SetValidator(
                 [
-                    "MIT",
+                    "Artistic-2.0",
+                    "BSD-2-Clause",
+                    "BSD-3-Clause",
+                    "CECILL-2.1",
                     "GPL-2.0",
                     "GPL-3.0",
-                    "Artistic-2.0",
-                    "BSD-3-Clause",
-                    "NCSA",
-                    "CECILL-2.1",
+                    "MIT",
                     "MPL-2.0",
+                    "NCSA",
                 ],
                 empty_ok=True,
             )
