@@ -17,6 +17,7 @@ class Validator(Vlad):
         "licence": [
             SetValidator(
                 [
+                    "Apache-2.0",
                     "Artistic-2.0",
                     "BSD-2-Clause",
                     "BSD-3-Clause",
