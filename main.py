@@ -136,7 +136,7 @@ for u, v in REPOS.items():
         # MRC: https://search.crossref.org/funding?q=501100000265
         # Wellcome Trust: https://search.crossref.org/funding?q=100010269
         funders=v["funders"],
-        contact=v["contact"],
+        contact=v["contact"].split(" <")[0],
         rsotm=v["rsotm"],
     )
     repos.append(repo)
