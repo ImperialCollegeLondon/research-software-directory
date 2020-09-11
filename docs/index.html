@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Imperial College London Research Software Directory</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.4/themes/algolia-min.css"
+    integrity="sha256-xgySndG7vpBLZeOLALN5MxnLXaCeNcnf+bGLVi+ROnY=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+    integrity="sha256-PVObJvYe7iXCSBcVkQUFvkV9TQGFh5J/ga8WHkLqHAo=" crossorigin="anonymous" />
+<style>
+    body {
+        font-family: sans-serif;
+        padding: 1em;
+    }
+
+    .ais-ClearRefinements {
+        margin: 1em 0;
+    }
+
+    .ais-SearchBox {
+        margin: 1em 0;
+    }
+
+    .ais-Pagination {
+        margin-top: 1em;
+    }
+
+    .ais-PoweredBy {
+        margin-top: 2em;
+    }
+
+    #stats {
+        margin-top: 1.5em;
+    }
+
+    .left-panel {
+        float: left;
+        width: 250px;
+    }
+
+    .right-panel {
+        margin-left: 260px;
+    }
+
+    /* .ais-InstantSearch { max-width: 960px; overflow: hidden; margin: 0 auto; } */
+    /* .ais-Hits-item { margin-bottom: 1em; width: calc(50% - 1rem); } */
+    /* .ais-Hits-item img { margin-right: 1em; } */
+    .hit-name {
+        margin-bottom: 0.5em;
+        font-weight: bold;
+    }
+
+    /* .hit-description {
+        color: #888;
+        font-size: 14px;
+        margin-bottom: 0.5em;
+    } */
+    dt::after {
+        content: ":";
+    }
+
+    .github-fork-ribbon::before {
+        background-color: #333;
+    }
+</style>
+<a class="github-fork-ribbon"
+    href="https://github.com/ImperialCollegeLondon/research-software-directory/blob/master/repos.csv"
+    data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+<div class="ais-InstantSearch">
+    <h1>Imperial College London Research Software Directory (Beta)</h1>
+    <div class="left-panel">
+        <div id="current-refinements"></div>
+        <h2>Languages</h2>
+        <div id="language-list"></div>
+        <h2>Licence</h2>
+        <div id="licence-list"></div>
+        <div id="stats"></div>
+        <div id="powered-by"></div>
+    </div>
+    <div class="right-panel">
+        <div id="searchbox"></div>
+        <div id="hits"></div>
+        <div id="pagination"></div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.4.0/dist/algoliasearch-lite.umd.js"
+    integrity="sha256-DRRPXouFDL+YbO29w68b6oZRR10qWscg8NUM4rehyZc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.7.2/dist/instantsearch.production.min.js"
+    integrity="sha256-4EiirX3ILmciQCnIatjZjxAzVF4RD27NaFusfmqKQZM=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/timeago.js@4.0.2/dist/timeago.min.js"
+    integrity="sha256-sTurDi2etLN9CpnUIoCC9y5iynb2qr/uo6QJqzoO7mA=" crossorigin="anonymous"></script>
+<script>
+    const searchClient = algoliasearch('SJN02EETQ4', '04c8c22b46d3338d167ceadbffbd4485');
+
+    const search = instantsearch({
+        indexName: 'software_showcase',
+        searchClient,
+    });
+
+    search.addWidgets([
+        instantsearch.widgets.searchBox({
+            container: '#searchbox',
+            autofocus: true,
+        }),
+        instantsearch.widgets.currentRefinements({
+            container: '#current-refinements',
+        }),
+        instantsearch.widgets.refinementList({
+            container: '#language-list',
+            attribute: 'language',
+        }),
+        instantsearch.widgets.refinementList({
+            container: '#licence-list',
+            attribute: 'license',
+        }),
+        instantsearch.widgets.hits({
+            container: '#hits',
+            templates: {
+                item: `
+        <div>
+          <div class="hit-name">
+            {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
+          </div>
+          <dl>
+            <dt>Owner</dt><dd>{{#helpers.highlight}}{ "attribute": "owner_name" }{{/helpers.highlight}}</dd>
+            <dt>Description</dt><dd>{{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}</dd>
+          </dl>
+          <div style="{{ homepage_url_style }}">
+            <a href="{{ homepage_url }}">Homepage</a>
+          </div>
+          <div>
+            <a href="{{ repo_url }}">Repository</a>
+          </div>
+          <div style="{{ rsotm_style }}">
+            <a href="https://imperialcollegelondon.github.io/rs-community-newsletters/{{ rsotm }}.html#research-software-of-the-month">RSotM</a>
+          </div>
+          <dl>
+            <dt>Stars</dt><dd>{{ stars_count }}</dd>
+            <dt>Licence</dt><dd>{{#helpers.highlight}}{ "attribute": "license" }{{/helpers.highlight}}</dd>
+            <dt>Language</dt><dd>{{#helpers.highlight}}{ "attribute": "language" }{{/helpers.highlight}}</dd>
+            <dt>Updated</dt><dd>{{ updated_at }}</dd>
+            <dt>Contact</dt><dd>{{ contact_name }}</dd>
+            <dt>DOI</dt><dd><a href="https://doi.org/{{ doi }}">{{ doi }}</a></dd>
+            <dt>Topics</dt><dd>{{ topics }}</dd>
+          </dl>
+        </div>
+      `},
+            transformItems: (items) => items.map(item => ({
+                ...item,
+                topics: item.topics && item.topics.join(', '),
+                homepage_url_style: item.homepage_url ? '' : 'display: none',
+                rsotm_style: item.rsotm ? '' : 'display: none',
+                updated_at: timeago.format(item.updated_at * 1000),
+            }))
+        }),
+        instantsearch.widgets.pagination({
+            container: '#pagination',
+        }),
+        instantsearch.widgets.poweredBy({
+            container: '#powered-by',
+        }),
+        instantsearch.widgets.stats({
+            container: '#stats',
+        }),
+    ]);
+
+    search.start();
+</script>
+<script>
+    (function (f, a, t, h, o, m) {
+        a[h] = a[h] || function () {
+            (a[h].q = a[h].q || []).push(arguments)
+        };
+        o = f.createElement('script'),
+            m = f.getElementsByTagName('script')[0];
+        o.async = 1; o.src = t; o.id = 'fathom-script';
+        m.parentNode.insertBefore(o, m)
+    })(document, window, '//ic-rcs-fathom.uksouth.cloudapp.azure.com/tracker.js', 'fathom');
+    fathom('set', 'siteId', 'IDNSM');
+    fathom('trackPageview');
+</script>
+
+</html>
