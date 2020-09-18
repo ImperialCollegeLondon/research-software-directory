@@ -45,6 +45,7 @@ EXCLUDED_REPOS = (
     "https://github.com/pawni/gpuobserver",
     "https://github.com/su2code/su2code.github.io",
     "https://github.com/su2code/TestCases",
+    "https://github.com/WMD-group/Phonons",
 )
 MAXIMUM_DAYS = 365
 MINIMUM_STARS = 10
