@@ -66,7 +66,11 @@ g = Github(os.environ["PUBLIC_GITHUB_TOKEN"])
 for u, v in REPOS.items():
     m = re.match("(.*)/(.+/.+)", u)
     if "github.com" in m.group(1):
-        r = g.get_repo(m.group(2))  # https://developer.github.com/v3/repos/#get
+        try:
+            r = g.get_repo(m.group(2))  # https://developer.github.com/v3/repos/#get
+        except UnknownObjectException as e:
+            print('WARNING: Unable to access repository <%s>, ignoring this entry: %s' % (m.group(2), str(e)))
+            continue
         repo = dict(
             name=r.name,
             owner_name=r.owner.name,
