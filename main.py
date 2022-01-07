@@ -8,6 +8,7 @@ import os
 import re
 import sys
 import urllib.request
+import urllib.error
 from contextlib import suppress
 from hashlib import md5
 
@@ -25,10 +26,13 @@ def get_license(repo):
 
 def get_doi(repo_url):
     # e.g. http://api.citeas.org/product/https://github.com/mwoodbri/MRIdb
-    with urllib.request.urlopen(f"http://api.citeas.org/product/{repo_url}") as f:
-        encoding = f.info().get_content_charset("utf-8")
-        data = json.loads(f.read().decode(encoding))
-        return data["metadata"].get("DOI", None)
+    try:
+        with urllib.request.urlopen(f"http://api.citeas.org/product/{repo_url}") as f:
+            encoding = f.info().get_content_charset("utf-8")
+            data = json.loads(f.read().decode(encoding))
+            return data["metadata"].get("DOI", None)
+    except urllib.error.HTTPError as e:
+        print('ERROR when trying to get DOI for repository <%s>: %s' % (repo_url, str(e)))
 
 
 # def get_commits(repo):
