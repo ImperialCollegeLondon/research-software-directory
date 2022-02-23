@@ -54,9 +54,12 @@ https://github.com/jarvist/Julia-Phonons,,,,,,Jarvist Frost <jarvist.frost@imper
 https://github.com/JelfsMaterialsGroup/stk,,,,,,,
 https://github.com/johnlees/PopPUNK,,10.1101/gr.241455.118,,,,John Lees <j.lees@imperial.ac.uk>,
 https://github.com/johnlees/pp-sketchlib,,,,Apache-2.0,,John Lees <j.lees@imperial.ac.uk>,
-https://github.com/JuliaArrays/LazyArrays.jl,,,,,,Sheehan Olver <s.olver@imperial.ac.uk>,
-https://github.com/JuliaMatrices/BandedMatrices.jl,,,,MIT,,Sheehan Olver <s.olver@imperial.ac.uk>,
-https://github.com/JuliaMatrices/BlockBandedMatrices.jl,,,,,,Sheehan Olver <s.olver@imperial.ac.uk>,
+https://github.com/JuliaArrays/LazyArrays.jl,,,,MIT,,Sheehan Olver <s.olver@imperial.ac.uk>,2022-02
+https://github.com/JuliaArrays/BlockArrays.jl,,,,,,Sheehan Olver <s.olver@imperial.ac.uk>,2022-02
+https://github.com/JuliaArrays/InfiniteArrays.jl,,,,MIT,,Sheehan Olver <s.olver@imperial.ac.uk>,2022-02
+https://github.com/JuliaMatrices/BandedMatrices.jl,,,,MIT,,Sheehan Olver <s.olver@imperial.ac.uk>,2022-02
+https://github.com/JuliaMatrices/BlockBandedMatrices.jl,,,,MIT,,Sheehan Olver <s.olver@imperial.ac.uk>,2022-02
+https://github.com/JuliaMatrices/LazyBandedMatrices.jl,,,,MIT,,Sheehan Olver <s.olver@imperial.ac.uk>,2022-02
 https://github.com/Kaixhin/Atari,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
 https://github.com/Kaixhin/Autoencoders,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
 https://github.com/Kaixhin/dockerfiles,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
