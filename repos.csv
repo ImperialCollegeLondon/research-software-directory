@@ -1,6 +1,6 @@
 url,funders,doi,homepage_url,licence,organisations,contact,rsotm
 https://github.com/baiwenjia/ukbb_cardiac,,10.1038/s41591-020-1009-y,,,,Wenjia Bai <w.bai@imperial.ac.uk>,
-https://github.com/barnesgroupICL/Driftfusion,,10.1039/C8EE02362J,,,,Philip Calado <p.calado13@imperial.ac.uk>,
+https://github.com/barnesgroupICL/Driftfusion,,10.1039/C8EE02362J,,,,Philip Calado <p.calado13@imperial.ac.uk>,2019-06
 https://github.com/BioMedIA/MIRTK,,,,,,Andreas Schuh <andreas.schuh@imperial.ac.uk>,
 https://github.com/biomedia-mira/blast-ct,,10.5281/zenodo.3746088,,,,Miguel Monteiro <miguel.monteiro@imperial.ac.uk>,
 https://github.com/biomedia-mira/deepscm,,,,,,Nick Pawlowski <n.pawlowski16@imperial.ac.uk>,
@@ -14,7 +14,7 @@ https://github.com/cog-imperial/GPdoemd,,,,,,Simon Olofsson <simon.olofsson15@im
 https://github.com/cog-imperial/suspect,501100000266,,,,,Francesco Ceccon <francesco.ceccon14@imperial.ac.uk>,
 https://github.com/Crompulence/cpl-library,,10.5281/zenodo.56208,,,,,2019-11
 https://github.com/csmsoftware/IMPaCTS,,10.5281/zenodo.3077413,,,,Gordon Haggart <g.haggart@imperial.ac.uk>,
-https://github.com/deepmedic/deepmedic,,10.1016/j.media.2016.10.004,,,,Konstantinos Kamnitsas <konstantinos.kamnitsas12@imperial.ac.uk>,
+https://github.com/deepmedic/deepmedic,,10.1016/j.media.2016.10.004,,,,Konstantinos Kamnitsas <konstantinos.kamnitsas12@imperial.ac.uk>,2021-06
 https://github.com/devitocodes/devito,501100000266,10.5194/gmd-12-1165-2019,,,,Gerard Gorman <g.gorman@imperial.ac.uk>,2019-03
 https://github.com/devitocodes/pyrevolve,,,,,,Navjot Kukreja <n.kukreja@imperial.ac.uk>,
 https://github.com/DLTK/DLTK,,10044/1/54699,,,,Nick Pawlowski <n.pawlowski16@imperial.ac.uk>,
@@ -23,7 +23,7 @@ https://github.com/DRMacIver/shrinkray,,,,MPL-2.0,,David MacIver <d.maciver@impe
 https://github.com/Effective-Quadratures/Effective-Quadratures,,10.21105/joss.00166,,,,Pranay Seshadri <p.seshadri@imperial.ac.uk>,
 https://github.com/fabiopardo/qmap,,,,,,Fabio Pardo <f.pardo16@imperial.ac.uk>,
 https://github.com/fabiopardo/tonic,,,,,,Fabio Pardo <f.pardo16@imperial.ac.uk>,2020-09
-https://github.com/firedrakeproject/firedrake,,10.5194/gmd-9-3803-2016,,,,David Ham <david.ham@imperial.ac.uk>,
+https://github.com/firedrakeproject/firedrake,,10.5194/gmd-9-3803-2016,,,,David Ham <david.ham@imperial.ac.uk>,2021-01
 https://github.com/firedrakeproject/gusto,,,,,,,
 https://github.com/FluidityProject/fluidity,,10.1029/2011GC003551,,,,Stephan Kramer <s.kramer@imperial.ac.uk>,
 https://github.com/gilestrolab/ethoscope,,,,,,Giorgio Gilstro <g.gilestro@imperial.ac.uk>,
@@ -46,7 +46,7 @@ https://github.com/ImperialCollegeLondon/rcs-pacemakers,,,,,,Mark Woodbridge <m.
 https://github.com/ImperialCollegeLondon/research-software-directory-data,,,,,,Mark Woodbridge <m.woodbridge@imperial.ac.uk>,2019-12
 https://github.com/ImperialCollegeLondon/safedata,,,https://imperialcollegelondon.github.io/safedata/,GPL-3.0,,David Orme <d.orme@imperial.ac.uk>,
 https://github.com/ImperialCollegeLondon/sap-voicebox,,,,,,Mike Brookes <mike.brookes@imperial.ac.uk>,
-https://github.com/ImperialCollegeLondon/sharpy,,10.21105/joss.01885,,,,Alfonso del Carre <alfonso.del-carre14@imperial.ac.uk>,
+https://github.com/ImperialCollegeLondon/sharpy,,10.21105/joss.01885,,,,Alfonso del Carre <alfonso.del-carre14@imperial.ac.uk>,2021-05
 https://github.com/ImperialCollegeLondon/UVLM,,,,,,,
 https://github.com/ImperialCollegeLondon/WInc3D,,10.1016/j.renene.2018.11.084,,,,Rafael Palacios <r.palacios@imperial.ac.uk>,
 https://github.com/jczarnowski/DeepFactors,,10.1109/lra.2020.2965415,,,,Jan Czarnowski <j.czarnowski15@imperial.ac.uk>,
@@ -60,15 +60,15 @@ https://github.com/JuliaMatrices/BlockBandedMatrices.jl,,,,,,Sheehan Olver <s.ol
 https://github.com/Kaixhin/Atari,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
 https://github.com/Kaixhin/Autoencoders,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
 https://github.com/Kaixhin/dockerfiles,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
-https://github.com/Kaixhin/FGLab,,,https://kaixhin.github.io/FGLab/,MIT,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
+https://github.com/Kaixhin/FGLab,,,https://kaixhin.github.io/FGLab/,MIT,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,2020-10
 https://github.com/Kaixhin/FGMachine,,,https://kaixhin.github.io/FGLab/,MIT,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
 https://github.com/Kaixhin/PlaNet,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
 https://github.com/Kaixhin/Rainbow,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
 https://github.com/Kaixhin/spinning-up-basic,,,,,,Kai Arulkumaran <kailash.arulkumaran13@imperial.ac.uk>,
-https://github.com/klee/klee,,10.5555/1855741.1855756,,NCSA,,Cristian Cadar <c.cadar@imperial.ac.uk>,
+https://github.com/klee/klee,,10.5555/1855741.1855756,,NCSA,,Cristian Cadar <c.cadar@imperial.ac.uk>,2021-04
 https://github.com/lsds/Crossbow,,10.14778/3342263.3342276,https://lsds.doc.ic.ac.uk/projects/crossbow,,,Peter Pietzuch <prp@imperial.ac.uk>,
 https://github.com/lsds/faasm,,,,,,Simon Shillaker <s.shillaker17@imperial.ac.uk>,
-https://github.com/lsds/KungFu,,,,,,Luo Mai <luo.mai@imperial.ac.uk>,
+https://github.com/lsds/KungFu,,,,,,Luo Mai <luo.mai@imperial.ac.uk>,2021-07
 https://github.com/lsds/LightSaber,,,https://lsds.doc.ic.ac.uk/projects/lightsaber,,,George Theodorakis <g.theodorakis17@imperial.ac.uk>,
 https://github.com/lsds/Neptune,,10.1145/3357223.3362724,,,,Panagiotis Garefalakis <p.garefalakis14@imperial.ac.uk>,
 https://github.com/lsds/Saber,,,https://lsds.doc.ic.ac.uk/projects/saber,,,Peter Pietzuch <prp@imperial.ac.uk>,
@@ -89,18 +89,18 @@ https://github.com/mrc-ide/covid-sim,501100000265,10.25561/77482,,,,Neil Ferguso
 https://github.com/mrc-ide/covid19-forecasts-orderly,501100000265,,https://mrc-ide.github.io/covid19-short-term-forecasts/,,,Sangeeta Bhatia <s.bhatia@imperial.ac.uk>,
 https://github.com/mrc-ide/dde,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
 https://github.com/mrc-ide/drjacoby,501100000265,,,,,Robert Verity <r.verity@imperial.ac.uk>,
-https://github.com/mrc-ide/dust,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
-https://github.com/mrc-ide/EpiEstim,501100000265,,,GPL-2.0,,Anne Cori <a.cori@imperial.ac.uk>,
+https://github.com/mrc-ide/dust,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,2020-12
+https://github.com/mrc-ide/EpiEstim,501100000265,,,GPL-2.0,,Anne Cori <a.cori@imperial.ac.uk>,2021-10
 https://github.com/mrc-ide/global-lmic-reports-orderly,501100000265,,,,,Oliver Watson <o.watson15@imperial.ac.uk>,
 https://github.com/mrc-ide/individual,501100000265,,,MIT,,Giovanni Charles <giovanni.charles10@imperial.ac.uk>,
-https://github.com/mrc-ide/odin,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
+https://github.com/mrc-ide/odin,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,2020-12
 https://github.com/mrc-ide/PhyDyn,501100000265,,,,,Igor Siveroni <i.siveroni@imperial.ac.uk>,
 https://github.com/mrc-ide/PlasmoMAPI,501100000265,,,,,Robert Verity <r.verity@imperial.ac.uk>,
 https://github.com/mrc-ide/provisionr,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
 https://github.com/mrc-ide/ring,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
 https://github.com/mrc-ide/rrq,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
-https://github.com/mrc-ide/sircovid,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,
-https://github.com/mrc-ide/squire,501100000265,,,,,Giovanni Charles <giovanni.charles10@imperial.ac.uk>,
+https://github.com/mrc-ide/sircovid,501100000265,,,MIT,,Rich FitzJohn <r.fitzjohn@imperial.ac.uk>,2020-12
+https://github.com/mrc-ide/squire,501100000265,,,,,Giovanni Charles <giovanni.charles10@imperial.ac.uk>,2020-12
 https://github.com/mwoodbri/MRIdb,501100000265,,,,,Mark Woodbridge <m.woodbridge@imperial.ac.uk>,
 https://github.com/NathanSkene/EWCE,,10.3389/fnins.2016.00016,,Artistic-2.0,,Nathan Skene <n.skene@imperial.ac.uk>,
 https://github.com/NathanSkene/MAGMA_Celltyping,,10.1038/s41588-018-0129-5,,Artistic-2.0,,Nathan Skene <n.skene@imperial.ac.uk>,
@@ -131,7 +131,7 @@ https://github.com/WMD-group/CarrierCapture.jl,,10.5281/zenodo.2621017,,,,,
 https://github.com/WMD-group/Eris,,10.5281/zenodo.1471439,,,,,
 https://github.com/WMD-group/hybrid-perovskites,,10.5281/zenodo.2641358,,,,,
 https://github.com/WMD-group/MacroDensity,,10.1021/ja4110073,,,,,
-https://github.com/WMD-group/SMACT,,10.5281/zenodo.268896,,,,,
+https://github.com/WMD-group/SMACT,,10.5281/zenodo.268896,,,,,2021-12
 https://github.com/WMD-group/StarryNight,,10.5281/zenodo.10543,,,,,
 https://github.com/xcompact3d/Incompact3d,,10.1002/fld.2480,,,,Sylvain Laizet <s.laizet@imperial.ac.uk>,
 https://github.com/ec363/fpcountr,,10.1101/2021.12.06.471413,https://ec363.github.io/fpcountr/,GPL-3.0,,Eszter Csibra <e.csibra@imperial.ac.uk>,
