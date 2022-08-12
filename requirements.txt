@@ -7,7 +7,7 @@ emoji==1.7.0
 idna==2.10
 pycparser==2.20
 PyGithub==1.55
-PyJWT==2.1.0
+PyJWT==2.4.0
 PyNaCl==1.4.0
 python-gitlab==3.3.0
 requests==2.25.0
