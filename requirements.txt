@@ -1,4 +1,4 @@
-algoliasearch==2.6.1
+algoliasearch==2.6.2
 certifi==2020.11.8
 cffi==1.14.6
 chardet==3.0.4
