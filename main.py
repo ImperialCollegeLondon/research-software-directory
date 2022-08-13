@@ -92,7 +92,7 @@ for u, v in REPOS.items():
             commits_count=r.get_commits().totalCount,
             contributors_count=r.get_contributors().totalCount,
             repo_url=r.html_url,
-            description=emoji.emojize(r.description, use_aliases=True)
+            description=emoji.emojize(r.description, language='alias')
             if r.description
             else None,
             homepage_url=v["homepage_url"] or r.homepage,
