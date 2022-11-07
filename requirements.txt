@@ -6,7 +6,7 @@ Deprecated==1.2.10
 emoji==2.2.0
 idna==2.10
 pycparser==2.20
-PyGithub==1.55
+PyGithub==1.57
 PyJWT==2.4.0
 PyNaCl==1.4.0
 python-gitlab==3.11.0
