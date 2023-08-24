@@ -4,7 +4,7 @@ cffi==1.14.6
 charset-normalizer==3.2.0
 cryptography==41.0.3
 Deprecated==1.2.10
-emoji==2.2.0
+emoji==2.8.0
 idna==2.10
 pycparser==2.20
 PyGithub==1.59.1
