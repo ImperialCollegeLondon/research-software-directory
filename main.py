@@ -136,8 +136,10 @@ for u, v in REPOS.items():
             )
     repo.update(
         objectID=md5(repo["urn"].encode()).hexdigest()[:8],
-        inactive=datetime.datetime.now() - repo["updated_at"]
-        > datetime.timedelta(days=365),
+        # Compare time using a timezone aware datetime since PyGitHub
+        # introduced a change to use timezone aware datetimes in v2.1.0
+        inactive=datetime.datetime.now(datetime.timezone.utc) - repo["updated_at"]
+            > datetime.timedelta(days=365),
         # Imperial College London: https://www.grid.ac/institutes/grid.7445.2
         organisations=["grid.7445.2"] + v["organisations"],
         # EPSRC: https://search.crossref.org/funding?q=501100000266
